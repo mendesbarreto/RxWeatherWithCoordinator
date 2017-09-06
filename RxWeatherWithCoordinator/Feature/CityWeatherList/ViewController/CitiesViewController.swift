@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 final class CitiesViewController: UIViewController, BindableType {
     typealias ViewModelType = CitiesViewModel
     

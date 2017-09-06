@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DFA406320DF01DE796C9C72 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA4EEA769DA6CD380A2342 /* SceneCoordinator.swift */; };
 		6DFA444F3B256A2C66F6466F /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA4AC4323357AF4D5341A7 /* CityDetailViewController.swift */; };
 		6DFA44A5C72C710D298E31DB /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA4730A695A763AF2E6ADC /* CitiesViewController.swift */; };
 		6DFA47078A148A29A9ABC94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFA478C1F15E0224740FEC3 /* LaunchScreen.storyboard */; };
@@ -19,6 +20,10 @@
 		A5D18C2A1F609BFB007C0D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D18C291F609BFB007C0D6B /* AppDelegate.swift */; };
 		A5D18C311F609BFB007C0D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D18C301F609BFB007C0D6B /* Assets.xcassets */; };
 		A5D18C3F1F609BFB007C0D6B /* RxWeatherWithCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D18C3E1F609BFB007C0D6B /* RxWeatherWithCoordinatorTests.swift */; };
+		A5D18C571F60AF2F007C0D6B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D18C541F60AF2F007C0D6B /* RxCocoa.framework */; };
+		A5D18C581F60AF2F007C0D6B /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5D18C541F60AF2F007C0D6B /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A5D18C591F60AF2F007C0D6B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D18C551F60AF2F007C0D6B /* RxSwift.framework */; };
+		A5D18C5A1F60AF2F007C0D6B /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A5D18C551F60AF2F007C0D6B /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A5D18C5D1F60AF30007C0D6B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5D18C5A1F60AF2F007C0D6B /* RxSwift.framework in Embed Frameworks */,
+				A5D18C581F60AF2F007C0D6B /* RxCocoa.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		6DFA43CBFEA39937307C5952 /* CityDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewModel.swift; sourceTree = "<group>"; };
 		6DFA44E7517BFBB72ED00A36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = RxWeatherWithCoordinator/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
@@ -40,6 +60,7 @@
 		6DFA4AC4323357AF4D5341A7 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		6DFA4B4E81C97EC2BFA46CBD /* SceneTransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneTransitionType.swift; sourceTree = "<group>"; };
 		6DFA4D1B5ECED106DEDDD068 /* BindableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		6DFA4EEA769DA6CD380A2342 /* SceneCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		6DFA4F415A5EA73AA219BF23 /* CitiesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
 		A5D18C261F609BFB007C0D6B /* RxWeatherWithCoordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxWeatherWithCoordinator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D18C291F609BFB007C0D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +69,9 @@
 		A5D18C3A1F609BFB007C0D6B /* RxWeatherWithCoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxWeatherWithCoordinatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D18C3E1F609BFB007C0D6B /* RxWeatherWithCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWeatherWithCoordinatorTests.swift; sourceTree = "<group>"; };
 		A5D18C401F609BFB007C0D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D18C541F60AF2F007C0D6B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		A5D18C551F60AF2F007C0D6B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		A5D18C561F60AF2F007C0D6B /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D18C591F60AF2F007C0D6B /* RxSwift.framework in Frameworks */,
+				A5D18C571F60AF2F007C0D6B /* RxCocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +100,7 @@
 				6DFA4D1B5ECED106DEDDD068 /* BindableType.swift */,
 				6DFA46AD96F26B44090539D4 /* Scene.swift */,
 				6DFA4B4E81C97EC2BFA46CBD /* SceneTransitionType.swift */,
+				6DFA4EEA769DA6CD380A2342 /* SceneCoordinator.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -122,6 +149,9 @@
 		A5D18C1D1F609BFB007C0D6B = {
 			isa = PBXGroup;
 			children = (
+				A5D18C561F60AF2F007C0D6B /* RxBlocking.framework */,
+				A5D18C541F60AF2F007C0D6B /* RxCocoa.framework */,
+				A5D18C551F60AF2F007C0D6B /* RxSwift.framework */,
 				A5D18C281F609BFB007C0D6B /* RxWeatherWithCoordinator */,
 				A5D18C3D1F609BFB007C0D6B /* RxWeatherWithCoordinatorTests */,
 				A5D18C271F609BFB007C0D6B /* Products */,
@@ -196,6 +226,8 @@
 				A5D18C221F609BFB007C0D6B /* Sources */,
 				A5D18C231F609BFB007C0D6B /* Frameworks */,
 				A5D18C241F609BFB007C0D6B /* Resources */,
+				A5D18C5D1F60AF30007C0D6B /* Embed Frameworks */,
+				A5D18C5E1F60AF81007C0D6B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -284,6 +316,24 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A5D18C5E1F60AF81007C0D6B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5D18C221F609BFB007C0D6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -297,6 +347,7 @@
 				6DFA4DD042E2E7F85F0309C2 /* SceneTransitionType.swift in Sources */,
 				6DFA4FA26E934CED13F26F36 /* CitiesViewModel.swift in Sources */,
 				6DFA48216F89F76F00F19C9A /* CityDetailViewModel.swift in Sources */,
+				6DFA406320DF01DE796C9C72 /* SceneCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +502,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQVLGGBH98;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxWeatherWithCoordinator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglas.RxWeatherWithCoordinator;
@@ -466,6 +521,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WQVLGGBH98;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxWeatherWithCoordinator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.douglas.RxWeatherWithCoordinator;
