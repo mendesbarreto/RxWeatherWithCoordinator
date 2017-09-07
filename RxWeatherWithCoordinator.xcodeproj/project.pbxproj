@@ -13,6 +13,7 @@
 		6DFA47078A148A29A9ABC94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFA478C1F15E0224740FEC3 /* LaunchScreen.storyboard */; };
 		6DFA47F907F926B973C9E8D0 /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA4D1B5ECED106DEDDD068 /* BindableType.swift */; };
 		6DFA48216F89F76F00F19C9A /* CityDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA43CBFEA39937307C5952 /* CityDetailViewModel.swift */; };
+		6DFA49653A9626D671DC7B3D /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA4BF97504293B6CCF5B85 /* SceneCoordinatorType.swift */; };
 		6DFA49812B78E07E9D1D1101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DFA4F823AB9B5F7040C8EB2 /* Main.storyboard */; };
 		6DFA4B4DE03B0AC0903FB604 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA46AD96F26B44090539D4 /* Scene.swift */; };
 		6DFA4DD042E2E7F85F0309C2 /* SceneTransitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA4B4E81C97EC2BFA46CBD /* SceneTransitionType.swift */; };
@@ -59,6 +60,7 @@
 		6DFA4730A695A763AF2E6ADC /* CitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewController.swift; sourceTree = "<group>"; };
 		6DFA4AC4323357AF4D5341A7 /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityDetailViewController.swift; sourceTree = "<group>"; };
 		6DFA4B4E81C97EC2BFA46CBD /* SceneTransitionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneTransitionType.swift; sourceTree = "<group>"; };
+		6DFA4BF97504293B6CCF5B85 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
 		6DFA4D1B5ECED106DEDDD068 /* BindableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
 		6DFA4EEA769DA6CD380A2342 /* SceneCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		6DFA4F415A5EA73AA219BF23 /* CitiesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				6DFA46AD96F26B44090539D4 /* Scene.swift */,
 				6DFA4B4E81C97EC2BFA46CBD /* SceneTransitionType.swift */,
 				6DFA4EEA769DA6CD380A2342 /* SceneCoordinator.swift */,
+				6DFA4BF97504293B6CCF5B85 /* SceneCoordinatorType.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				6DFA4FA26E934CED13F26F36 /* CitiesViewModel.swift in Sources */,
 				6DFA48216F89F76F00F19C9A /* CityDetailViewModel.swift in Sources */,
 				6DFA406320DF01DE796C9C72 /* SceneCoordinator.swift in Sources */,
+				6DFA49653A9626D671DC7B3D /* SceneCoordinatorType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
